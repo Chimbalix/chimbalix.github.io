@@ -1,0 +1,50 @@
+/* 
+    Author     : Chimbal
+*/
+
+@font-face {
+    /* https://fonts.google.com/specimen/Roboto+Flex */
+	font-family: 'RobotoFlex';
+	src: local('RobotoFlex'), url(/fonts/RobotoFlex.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: RobotoFlex;
+}
+
+p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+a:link {
+    color: #AADDFF;
+    text-decoration: none;
+}
+a:active {
+    color: #99ffff
+}
+a:visited {
+    color: #AADDFF;
+}
+a:hover {
+    color: #ffff66;
+    text-decoration: underline dotted;
+}
+
+body {
+    background-image: url('/images/BG.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+}
+
+.test-div {
+    background-color: rgba(45, 45, 45, 0.5);
+    color: #FFFFFF;
+    margin: 10px auto;
+}
